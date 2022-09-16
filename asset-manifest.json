@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fatihbulbul1/react-weather-app/static/css/main.cbe9ec36.css",
+    "main.js": "/fatihbulbul1/react-weather-app/static/js/main.5a4e6f5b.js",
+    "index.html": "/fatihbulbul1/react-weather-app/index.html",
+    "main.cbe9ec36.css.map": "/fatihbulbul1/react-weather-app/static/css/main.cbe9ec36.css.map",
+    "main.5a4e6f5b.js.map": "/fatihbulbul1/react-weather-app/static/js/main.5a4e6f5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbe9ec36.css",
+    "static/js/main.5a4e6f5b.js"
+  ]
+}
