@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+*{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    background-color: #609bca;
+}
+#root{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 10em;
+}
+#app-container{
+    width: 600px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    height: min-content;
+    flex-direction: column;
+    gap: 70px;
+}
+#search-div, #search-bar{
+    width: 100%;
+    height: 60px;
+}
+#search-bar{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    font-size: 2em;
+    appearance: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+                rgba(17, 17, 26, 0.1) 0px 16px 56px, 
+                rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    transition: 2s ease;
+}
+#search-bar:focus{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#place-div{
+    text-align: center;
+}
+#location{
+    font-size: 5em;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+#time-zone{
+    font-style: italic;
+    font-size: 1.6em;
+    text-shadow: 1px 1px rgba(50,50,70,0.5);
+}
+#degree-div{
+    text-align: center;
+}
+#degree{
+    padding: 20px;
+    font-size: 6em;
+    font-weight: 700;
+    text-shadow: 3px 6px rgba(50,50,70,0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+#weather{
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: 10px;
+}
